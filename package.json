@@ -1,0 +1,47 @@
+{
+  "name": "myToDo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@ant-design/react-native": "^4.2.0",
+    "@react-native-async-storage/async-storage": "^1.15.9",
+    "@react-native-community/cameraroll": "^4.1.2",
+    "@react-native-community/segmented-control": "^2.2.2",
+    "@react-native-community/slider": "^4.1.9",
+    "@react-native-community/viewpager": "^5.0.11",
+    "@react-native-firebase/app": "^12.9.2",
+    "@react-native-firebase/firestore": "^12.9.2",
+    "moment": "^2.29.1",
+    "react": "17.0.2",
+    "react-dom": "^17.0.2",
+    "react-moment": "^1.1.1",
+    "react-native": "0.66.1",
+    "react-native-date-picker": "^4.1.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-swipe-gestures": "^1.0.5",
+    "react-native-uuid": "^2.0.1",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-web": "^0.17.5",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/runtime": "^7.15.4",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.3.0",
+    "eslint": "^8.0.1",
+    "jest": "^27.3.0",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
